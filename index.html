@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nabh's Portfolio</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#4f46e5,#7c3aed,#0ea5e9);
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:flex-start;
+    color:white;
+    padding:40px 20px;
+}
+
+h1{
+    font-size:3.5rem;
+    margin-bottom:10px;
+    text-shadow:2px 2px 10px rgba(0,0,0,0.3);
+}
+
+h2{
+    font-size:1.6rem;
+    font-weight:400;
+    margin-bottom:30px;
+    color:#f1f5f9;
+}
+
+hr{
+    width:80%;
+    max-width:900px;
+    border:none;
+    height:2px;
+    background:rgba(255,255,255,.4);
+    margin:35px 0;
+}
+
+h3{
+    margin:25px 0 15px;
+}
+
+h3 a{
+    text-decoration:none;
+    color:white;
+    background:#ffffff20;
+    padding:12px 25px;
+    border-radius:12px;
+    transition:.3s;
+    display:inline-block;
+}
+
+h3 a:hover{
+    background:white;
+    color:#4f46e5;
+    transform:translateY(-4px);
+}
+
+img{
+    width:550px;
+    max-width:90%;
+    border-radius:18px;
+    margin-bottom:35px;
+    box-shadow:0 12px 30px rgba(0,0,0,.35);
+    transition:.35s;
+}
+
+img:hover{
+    transform:scale(1.03);
+    box-shadow:0 18px 40px rgba(0,0,0,.45);
+}
+
+body > a{
+    text-decoration:none;
+    color:white;
+    background:#111827;
+    padding:12px 28px;
+    margin:10px;
+    border-radius:30px;
+    font-weight:600;
+    transition:.3s;
+    display:inline-block;
+}
+
+body > a:hover{
+    background:white;
+    color:#111827;
+    transform:translateY(-3px);
+}
+
+@media (max-width:768px){
+    h1{
+        font-size:2.5rem;
+    }
+
+    h2{
+        font-size:1.2rem;
+    }
+
+    img{
+        width:100%;
+    }
+}
+</style>
+</head>
+<body>
+    <h1>Nabh's Portfolio</h1>
+
+    <h2>I'm a Web Developer</h2>
+    <hr>
+    <h3><a href="./public/movie-ranking.html">Movie Ranking Project</a></h3>
+
+
+    <img src="./assets/images/movie recomendation.png" alt="Movie recomendation page"
+    height="200">
+
+    <h3><a href="./public/birthday-invite.html">Birthday Invite Project</a></h3>
+    <img src="./assets/images/birthday.png" height="200" alt="Birthday Invite Project Preview">
+    <hr>
+
+    <a href="./public/about.html">About</a>
+    <a href="./public/contact.html">Contact</a>
+</body>
+</html>
